@@ -11,3 +11,6 @@ jobs:
 
       - name: Run a one-line script
         run: echo ${{ github.event.pull_request.title }}
+
+      - name: Run
+        run: echo ${GITHUB_HEAD_REF}
