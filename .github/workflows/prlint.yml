@@ -1,6 +1,8 @@
 name: PR LINT
 
-on: pull_request
+on:
+  pull_request:
+    types: [opened, edited]
 jobs:
   build:
     runs-on: ubuntu-latest
