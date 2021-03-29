@@ -2,7 +2,7 @@ name: PR LINT
 
 on:
   pull_request:
-    types: [opened, edited]
+    types: [opened, edited, reopened]
 jobs:
   build:
     runs-on: ubuntu-latest
